@@ -1,0 +1,41 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  padding-top: 70px;
+  background-color: #fff;
+}
+
+.hero {
+  height: 90vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.hero .container {
+  position: relative;
+  z-index: 1;
+}
+
+.hover-zoom img {
+  transition: transform 0.4s ease;
+}
+
+.hover-zoom:hover img {
+  transform: scale(1.05);
+}
+
+.card {
+  border-radius: 12px;
+}
+
+footer a:hover {
+  color: #ffd700;
+  transition: color 0.3s;
+}

@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TasteBite | Online Restaurant</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Font Awesome for Icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top shadow-sm" 
+     style="background: linear-gradient(90deg, #ff6600, #ff3333);">
+  <div class="container">
+    <!-- Logo -->
+    <a class="navbar-brand fw-bold d-flex align-items-center" href="index.html">
+      <img src="https://th.bing.com/th/id/OIP.IQiFqu_zLDAYGUcQnpdrxwHaE8?w=294&h=196&c=7&r=0&o=7&cb=ucfimg2&dpr=1.3&pid=1.7&rm=3&ucfimg=1" alt="TasteBite Logo" width="45" class="me-2">
+      TasteBite
+    </a>
+
+    <!-- Toggle for Mobile -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navigation Links -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto text-center">
+        <li class="nav-item">
+          <a class="nav-link px-3 fw-semibold active" href="index.html">
+            <i class="fa-solid fa-house me-1"></i>Home
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link px-3 fw-semibold" href="menu.html">
+            <i class="fa-solid fa-utensils me-1"></i>Menu
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link px-3 fw-semibold" href="contact.html">
+            <i class="fa-solid fa-envelope me-1"></i>Contact
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link px-3 fw-semibold" href="client.html">
+            <i class="fa-solid fa-user-group me-1"></i>Client
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link px-3 fw-semibold" href="admin.html">
+            <i class="fa-solid fa-user-shield me-1"></i>Admin
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<!-- Hero Section -->
+<header class="hero text-center text-white d-flex align-items-center justify-content-center" style="background-image: url('images/hero.jpg');">
+  <div class="container">
+    <h1 class="display-3 fw-bold">Welcome to <span style="color:#ffd700;">TasteBite</span></h1>
+    <p class="lead mb-4">Delicious food delivered right to your door — fresh, fast, and full of flavor!</p>
+    <div class="d-flex justify-content-center gap-3">
+      <a href="menu.html" class="btn btn-warning btn-lg shadow"><i class="fa-solid fa-utensils me-2"></i>Order Now</a>
+      <a href="contact.html" class="btn btn-outline-light btn-lg shadow"><i class="fa-solid fa-calendar-check me-2"></i>Book a Table</a>
+    </div>
+  </div>
+</header>
+
+<!-- About Section -->
+<section class="py-5 text-center">
+  <div class="container">
+    <h2 class="fw-bold mb-3 text-danger">About Us</h2>
+    <p class="lead text-muted">We serve happiness on every plate. At TasteBite, our chefs craft dishes using the freshest ingredients and the finest recipes to bring joy to your dining experience.</p>
+  </div>
+</section>
+
+<!-- Featured Dishes -->
+<section class="py-5" style="background-color: #fff7f0;">
+  <div class="container">
+    <h2 class="text-center fw-bold mb-5 text-success">Our Featured Dishes</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card shadow-sm border-0 hover-zoom">
+          <img src="https://th.bing.com/th/id/OIP.fG-IaE-hJC9bFJropw-17wHaLH?w=208&h=305&c=7&r=0&o=7&cb=ucfimg2&dpr=1.3&pid=1.7&rm=3&ucfimg=1">
+            <p class="fw-bold text-success fs-5">$18.99</p>
+            <button class="btn btn-outline-danger"><i class="fa-solid fa-cart-plus me-1"></i>Add to Cart</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card shadow-sm border-0 hover-zoom">
+          <img src="https://th.bing.com/th/id/OSK.4524fe87dcac2014a8c79419dd0805ae?w=200&h=126&c=7&rs=1&qlt=80&o=6&cdv=1&cb=ucfimg1&dpr=1.3&pid=16.1&ucfimg=1" class="card-img-top rounded-top" alt="Dish 2">
+          <div class="card-body text-center">
+            <h5 class="card-title text-danger">Pasta Primavera</h5>
+            <p class="card-text text-muted">Creamy Italian pasta with fresh vegetables and herbs.</p>
+            <p class="fw-bold text-success fs-5">$12.99</p>
+            <button class="btn btn-outline-danger"><i class="fa-solid fa-cart-plus me-1"></i>Add to Cart</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card shadow-sm border-0 hover-zoom">
+          <img src="https://th.bing.com/th/id/OIP.wMfDyNGkI88auLvGPuqrCwHaF2?w=232&h=183&c=7&r=0&o=7&cb=ucfimg2&dpr=1.3&pid=1.7&rm=3&ucfimg=1">
+          <div class="card-body text-center">
+            <h5 class="card-title text-danger">Classic Burger</h5>
+            <p class="card-text text-muted">A delicious double cheeseburger with crispy fries.</p>
+            <p class="fw-bold text-success fs-5">$10.99</p>
+            <button class="btn btn-outline-danger"><i class="fa-solid fa-cart-plus me-1"></i>Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- More Dishes Section -->
+<section class="py-5">
+  <div class="container">
+    <h2 class="text-center fw-bold mb-5 text-primary">More Favorites</h2>
+    <div class="row g-4">
+      <div class="col-md-3">
+        <div class="card border-0 shadow-sm hover-zoom">
+          <img src="https://th.bing.com/th/id/OIP.ZuQ2JI50F0oA9whq7alCuwHaE8?w=296&h=197&c=7&r=0&o=7&cb=ucfimg2&dpr=1.3&pid=1.7&rm=3&ucfimg=1" class="card-img-top">
+          <div class="card-body text-center">
+            <h6 class="card-title">Seafood Platter</h6>
+            <p class="text-success fw-bold">$20.99</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card border-0 shadow-sm hover-zoom">
+          <img src="https://th.bing.com/th/id/OIP.sunXlJaHXVJrEyJMkPmJNQHaE7?w=282&h=188&c=7&r=0&o=7&cb=ucfimg2&dpr=1.3&pid=1.7&rm=3&ucfimg=1" class="card-img-top">
+          <div class="card-body text-center">
+            <h6 class="card-title">Veggie Salad</h6>
+            <p class="text-success fw-bold">$8.99</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card border-0 shadow-sm hover-zoom">
+          <img src="https://th.bing.com/th/id/OIP.-Q3Uz0yGXnV7QAO07uvjXwHaE7?w=252&h=180&c=7&r=0&o=7&cb=ucfimg2&dpr=1.3&pid=1.7&rm=3&ucfimg=1" class="card-img-top">
+          <div class="card-body text-center">
+            <h6 class="card-title">Spicy Tacos</h6>
+            <p class="text-success fw-bold">$9.99</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card border-0 shadow-sm hover-zoom">
+          <img src="https://th.bing.com/th/id/OIP.WBSXt0k-zTq9aUJ8L-B05gHaHa?w=164&h=180&c=7&r=0&o=7&cb=ucfimg2&dpr=1.3&pid=1.7&rm=3&ucfimg=1" class="card-img-top">
+          <div class="card-body text-center">
+            <h6 class="card-title">Chocolate Cake</h6>
+            <p class="text-success fw-bold">$6.99</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Testimonials -->
+<section class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center fw-bold mb-5 text-danger">What Our Customers Say</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card p-4 border-0 shadow-sm">
+          <p>"Absolutely love TasteBite! The food is fresh, and delivery is super fast!"</p>
+          <h6 class="fw-bold mt-3">– Sarah M.</h6>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card p-4 border-0 shadow-sm">
+          <p>"Their pasta is out of this world! Definitely my go-to restaurant."</p>
+          <h6 class="fw-bold mt-3">– Daniel P.</h6>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card p-4 border-0 shadow-sm">
+          <p>"Amazing service and great quality food. Highly recommended!"</p>
+          <h6 class="fw-bold mt-3">– Priya K.</h6>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="text-white text-center py-4" style="background: linear-gradient(90deg, #ff3333, #ff6600);">
+  <div class="container">
+    <div class="mb-3">
+      <a href="#" class="text-white me-3"><i class="fab fa-facebook fa-lg"></i></a>
+      <a href="#" class="text-white me-3"><i class="fab fa-instagram fa-lg"></i></a>
+      <a href="#" class="text-white me-3"><i class="fab fa-twitter fa-lg"></i></a>
+      <a href="#" class="text-white"><i class="fab fa-youtube fa-lg"></i></a>
+    </div>
+    <p>© 2025 TasteBite | Crafted with ❤️ by ChatGPT</p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
